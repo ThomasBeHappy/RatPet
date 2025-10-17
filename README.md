@@ -4,7 +4,7 @@
 
 RatPet is a Windows desktop pet that brings joy, mischief, and pure chaos to your daily computing experience. This isn't just a cute pet - it's a full-featured digital companion with personality, intelligence, and a penchant for causing delightful mayhem! >:3
 
-![RatPet Demo](https://via.placeholder.com/800x400/2D2D2D/FFFFFF?text=RatPet+in+Action+%3A3)
+![RatPet Demo](https://github.com/ThomasBeHappy/RatPet/blob/main/ratbanner.png)
 
 ## ✨ Features That Will Blow Your Mind
 
