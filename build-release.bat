@@ -10,7 +10,7 @@ if exist "publish" rmdir /s /q "publish"
 
 REM Build self-contained release
 echo Building self-contained release...
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishReadyToRun=true -p:IncludeNativeLibrariesForSelfExtract=true -p:PublishTrimmed=true -p:TrimMode=partial -o publish
+dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishReadyToRun=true -p:IncludeNativeLibrariesForSelfExtract=true -o publish
 
 REM Check if build was successful
 if %ERRORLEVEL% neq 0 (

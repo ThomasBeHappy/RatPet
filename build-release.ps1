@@ -18,8 +18,6 @@ $buildArgs = @(
     "-p:PublishSingleFile=true",
     "-p:PublishReadyToRun=true",
     "-p:IncludeNativeLibrariesForSelfExtract=true",
-    "-p:PublishTrimmed=true",
-    "-p:TrimMode=partial",
     "-o", "publish"
 )
 
