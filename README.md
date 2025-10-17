@@ -267,7 +267,7 @@ Still not convinced? Here's why RatPet is the digital companion you never knew y
 
 Ready to meet your new digital best friend? Download RatPet today and prepare for the most chaotic, adorable, and entertaining desktop experience of your life!
 
-[![Download RatPet](https://via.placeholder.com/200x60/FF6B6B/FFFFFF?text=Download+RatPet+%3A3)](https://github.com/ThomasBeHappy/RatPet/releases)
+[![Download RatPet](https://github.com/ThomasBeHappy/RatPet/blob/main/download.png)](https://github.com/ThomasBeHappy/RatPet/releases)
 
 **Remember**: With great chaos comes great responsibility! >:3
 
