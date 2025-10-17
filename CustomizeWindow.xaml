@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="RatPet.CustomizeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rat Settings" Width="340" Height="360" WindowStartupLocation="CenterOwner">
+  <StackPanel Margin="12" >
+    <TextBlock Text="Choose a skin" FontWeight="Bold" Margin="0,0,0,8"/>
+    <UniformGrid Columns="2" Rows="1" Margin="0,0,0,8">
+      <Button x:Name="BtnGray" Margin="4" Padding="8">
+        <StackPanel>
+          <Image Source="idle.png" Width="48" Height="16" Stretch="Fill"/>
+          <TextBlock Text="Gray" HorizontalAlignment="Center"/>
+        </StackPanel>
+      </Button>
+      <Button x:Name="BtnWhite" Margin="4" Padding="8">
+        <StackPanel>
+          <Image Source="white-idle.png" Width="48" Height="16" Stretch="Fill"/>
+          <TextBlock Text="White" HorizontalAlignment="Center"/>
+        </StackPanel>
+      </Button>
+    </UniformGrid>
+    <CheckBox x:Name="ChkRemember" Content="Remember my choice"/>
+
+    <Separator Margin="0,8,0,8"/>
+    <TextBlock Text="Size" FontWeight="Bold"/>
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,4,0,8">
+      <TextBlock Text="0.5x" Width="40"/>
+      <Slider x:Name="SldScale" Minimum="0.5" Maximum="4.0" Value="2.0" Width="220" TickFrequency="0.1" IsSnapToTickEnabled="True"/>
+      <TextBlock Text="4x" Width="40" HorizontalAlignment="Right"/>
+    </StackPanel>
+
+    <TextBlock Text="Speed" FontWeight="Bold"/>
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,4,0,8">
+      <TextBlock Text="Slow" Width="40"/>
+      <Slider x:Name="SldSpeed" Minimum="1" Maximum="10" Value="3" Width="220" TickFrequency="0.5" IsSnapToTickEnabled="True"/>
+      <TextBlock Text="Fast" Width="40" HorizontalAlignment="Right"/>
+    </StackPanel>
+
+    <TextBlock Text="Sneakiness" FontWeight="Bold"/>
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,4,0,8">
+      <TextBlock Text="Low" Width="40"/>
+      <Slider x:Name="SldSneak" Minimum="0" Maximum="1" Value="0.2" Width="220" TickFrequency="0.05" IsSnapToTickEnabled="True"/>
+      <TextBlock Text="High" Width="40" HorizontalAlignment="Right"/>
+    </StackPanel>
+
+    <TextBlock Text="Mischief" FontWeight="Bold"/>
+    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,4,0,8">
+      <TextBlock Text="Low" Width="40"/>
+      <Slider x:Name="SldMischief" Minimum="0" Maximum="0.2" Value="0.02" Width="220" TickFrequency="0.01" IsSnapToTickEnabled="True"/>
+      <TextBlock Text="High" Width="40" HorizontalAlignment="Right"/>
+    </StackPanel>
+
+    <Separator Margin="0,8,0,8"/>
+    <TextBlock Text="Allowed monitors" FontWeight="Bold"/>
+    <StackPanel x:Name="MonitorPanel" Margin="0,4,0,0"/>
+  </StackPanel>
+</Window>
