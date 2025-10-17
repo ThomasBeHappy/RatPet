@@ -58,16 +58,31 @@ Your rat is a data scientist!
 ## 🚀 Installation & Setup
 
 ### Prerequisites
-- Windows 10/11
-- .NET 9.0 Runtime
+- Windows 10/11 (64-bit)
 - A sense of humor and tolerance for chaos
+- **No additional software required!** (Self-contained deployment)
 
 ### Quick Start
-1. **Download** the latest release from [Releases](https://github.com/yourusername/RatPet/releases)
-2. **Extract** to your preferred location
-3. **Run** `RatPet.exe`
-4. **Right-click** the tray icon to access all features
-5. **Enjoy** your new chaotic digital companion!
+1. **Download** the latest release from [Releases](https://github.com/ThomasBeHappy/RatPet/releases)
+2. **Run** `RatPet.exe` (no installation required!)
+3. **Right-click** the tray icon to access all features
+4. **Enjoy** your new chaotic digital companion!
+
+### Building from Source
+If you want to build RatPet yourself:
+
+```bash
+# Clone the repository
+git clone https://github.com/ThomasBeHappy/RatPet.git
+cd RatPet
+
+# Build self-contained release (Windows)
+.\build-release.bat
+# OR
+.\build-release.ps1
+
+# The executable will be in the publish/ folder
+```
 
 ### First Time Setup
 1. **Enable features** you want from the tray menu:
@@ -252,7 +267,7 @@ Still not convinced? Here's why RatPet is the digital companion you never knew y
 
 Ready to meet your new digital best friend? Download RatPet today and prepare for the most chaotic, adorable, and entertaining desktop experience of your life!
 
-[![Download RatPet](https://via.placeholder.com/200x60/FF6B6B/FFFFFF?text=Download+RatPet+%3A3)](https://github.com/yourusername/RatPet/releases)
+[![Download RatPet](https://via.placeholder.com/200x60/FF6B6B/FFFFFF?text=Download+RatPet+%3A3)](https://github.com/ThomasBeHappy/RatPet/releases)
 
 **Remember**: With great chaos comes great responsibility! >:3
 
